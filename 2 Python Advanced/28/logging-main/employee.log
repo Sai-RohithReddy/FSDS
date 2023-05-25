@@ -1,0 +1,7 @@
+2023-05-20 22:07:46,277:__main__:DEBUG:Start of employee program
+2023-05-20 22:07:46,279:__main__:DEBUG:End of employee program
+2023-05-20 22:07:46,280:__main__:DEBUG:######################
+2023-05-20 22:28:34,401:__main__:DEBUG:Start of employee program
+2023-05-20 22:28:34,403:__main__:CRITICAL:Employee check failed
+2023-05-20 22:28:34,403:__main__:DEBUG:End of employee program
+2023-05-20 22:28:34,403:__main__:DEBUG:######################
