@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMart</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/style.css')}}">
+</head>
+<body>
+    <h1>Welcome to DMart</h1>
+    <p>Select the items listed below:</p>
+    <form action="/cal" method="POST">
+        <input type="checkbox" id="suger" name="selectedItems" value="50">
+        <label for="vehicle1"> Suger </label><br>
+        <input type="checkbox" id="butter" name="selectedItems" value="150">
+        <label for="vehicle2"> Butter </label><br>
+        <input type="checkbox" id="chicker" name="selectedItems" value="300">
+        <label for="vehicle3"> Chicken </label><br>
+        <input type="checkbox" id="milk" name="selectedItems" value="50">
+        <label for="vehicle3"> Milk </label><br>
+        <input type="submit" value="Calculate">
+    </form>
+    <h3>Total amount: {{tot}}, Discount you got: {{disc}}, Final amount: {{final}}</h3>
+</body>
+</html>
