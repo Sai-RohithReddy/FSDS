@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigDug 2.0</title>
+    <link rel="stylesheet" href={{url_for("static", filename="css/main.css" )}}>
+</head>
+
+<body>
+    <div class="body">
+        <h1>DigDug 2.0</h1>
+        <form action="/search" , method="POST">
+            <input type="text" , name="job_id" , id="job_id">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</body>
+
+</html>
